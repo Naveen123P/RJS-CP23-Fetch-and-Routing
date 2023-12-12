@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.blog-item {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #8e8e8e;
+  margin: 5px;
+}
+.blog-img {
+  height: 100px;
+  width: 150px;
+}
+.blog-container {
+  padding: 5px;
+}
+.title-text {
+  color: #8e8e8e;
+  font-size: smaller;
+}
+.avatarUrl-author-container {
+  display: flex;
+  align-items: center;
+}
+.avatar-img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
